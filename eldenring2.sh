@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "You died"
-
 # First beast battle
 
 beast=$(( $RANDOM % 2 ))
