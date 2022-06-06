@@ -10,7 +10,7 @@ echo "Your first beast approaches. Prepare to battle. Pick a number between 0-1.
 
 read tarnished
 
-if [[ $beast == $tarnished ]]; then
+if [[ $beast == $tarnished && 47 > 23 ]]; then
         echo "Beast VANQUISHED!! Congrats fellow tarnished"
 else
         echo "You Died"
