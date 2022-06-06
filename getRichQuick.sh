@@ -14,7 +14,18 @@ echo "$PWD, $SHELL, $USER, $HOSTNAME"
 
 sleep 2
 
-
+echo "Calculating"
+echo ".........."
+sleep 1
+echo "**........"
+sleep 1
+echo "****......"
+sleep 1
+echo "******...."
+sleep 1
+echo "********.."
+sleep 1
+echo "**********"
 
 getrich=$((( $RANDOM % 15 ) + $age ))
 
