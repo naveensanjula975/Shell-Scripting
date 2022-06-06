@@ -9,3 +9,5 @@ echo "How old are you?"
 read age
 
 echo "Hello $name, you are $age years old."
+
+echo "$PWD, $SHELL, $USER, $HOSTNAME" 
