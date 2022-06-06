@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name = "Naveen"
+name="Naveen"
 
 echo "Good Morning $name!!"
 sleep 1
