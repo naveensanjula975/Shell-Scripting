@@ -26,7 +26,9 @@ read tarnished
 beast=$(( $RANDOM % 10))
 
 if [[ $beast == $tarnished || $tarnished == "coffee" ]]; then
-        echo "Beast VANQUISHED!! Congrats fellow tarnished"
+        if [[ $USER == "root" ]]; then
+                echo "Beast vanquished"
+        fi
 else
         echo "You Died"
 fi
